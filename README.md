@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection — End-to-End ML Project
 
+[![CI](https://github.com/roshanamoleya-arch/credit-card-fraud-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/roshanamoleya-arch/credit-card-fraud-detection/actions/workflows/ci.yml)
+
 A complete, production-style machine learning project for detecting
 fraudulent credit card transactions. Covers the full lifecycle: data
 generation, preprocessing/feature engineering, model training with

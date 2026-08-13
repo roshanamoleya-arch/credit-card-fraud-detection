@@ -1,0 +1,42 @@
+{
+  "best_model": "logistic_regression",
+  "all_results": {
+    "logistic_regression": {
+      "pr_auc": 0.814665469938126,
+      "roc_auc": 0.9253455565412778,
+      "train_seconds": 0.2
+    },
+    "random_forest": {
+      "pr_auc": 0.8025057232919326,
+      "roc_auc": 0.8868722678910956,
+      "train_seconds": 36.5
+    },
+    "xgboost": {
+      "pr_auc": 0.8026167749738623,
+      "roc_auc": 0.8940609507696634,
+      "train_seconds": 3.3
+    }
+  },
+  "n_train": 105000,
+  "n_val": 15000,
+  "n_test": 30000,
+  "train_fraud_rate": 0.007961904761904762,
+  "smote_sampling_strategy": 0.15,
+  "feature_columns": [
+    "amount",
+    "hour_of_day",
+    "distance_from_home",
+    "distance_from_last_transaction",
+    "ratio_to_median_purchase_price",
+    "repeat_retailer",
+    "used_chip",
+    "used_pin_number",
+    "online_order",
+    "card_present",
+    "is_night",
+    "high_value_flag",
+    "remote_no_verification",
+    "merchant_category"
+  ],
+  "random_state": 42
+}

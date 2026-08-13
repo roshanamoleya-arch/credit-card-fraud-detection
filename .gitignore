@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated data (large, reproducible via generate_data.py)
+data/transactions.csv
+*.csv
+
+# Trained model artifacts (reproducible via train.py; track separately if needed, e.g. Git LFS)
+models/*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
